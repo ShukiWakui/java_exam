@@ -1,0 +1,44 @@
+@charset "utf-8";
+
+header {
+    background-color: red;
+    height: 100px;
+    /* height: 10%; */
+}
+
+#menu {
+    width: 20%;
+    background-color: grey;
+}
+
+#mainContent {
+    width: 60%;
+    background-color: green;
+}
+
+#koukoku {
+    width: 20%;
+    background-color: grey;
+}
+
+footer {
+    background-color: red;
+    height: 100px;
+    /* height: 10%; */
+}
+
+.main {
+    display: flex;
+    height: 500px;
+    /* height: 80%; */
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.zentai {
+    flex-direction: column;
+}

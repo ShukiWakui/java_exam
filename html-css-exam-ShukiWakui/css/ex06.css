@@ -1,0 +1,21 @@
+@charset "utf-8";
+
+ul {
+    list-style: none;
+    padding-left: 0px;
+}
+
+li {
+    width: 150px;
+    height: 25px;
+    margin-bottom: 5px;
+    color: white;
+}
+
+.kisuu {
+    background-color: red;
+}
+
+.guusuu {
+    background-color: green;
+}
