@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="ja" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div th:text="${result}">dummy</div>
+    <form action="exam-bonus-input.html" th:action="@{/exam03/result}" method="post">
+        メールアドレス：<input type="text" name="mail"><br>
+        パスワード：<input type="text" name="password"><br>
+        <button>ログイン</button>
+    </form>
+</body>
+</html>
